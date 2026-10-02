@@ -9,7 +9,7 @@
   <link href="https://nnic52136-hash.github.io/Yase52136.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, John Doe</rights>
   <title>Hexo</title>
-  <updated>2026-10-02T14:23:13.990Z</updated>
+  <updated>2026-10-02T15:05:23.813Z</updated>
   <entry>
     <author>
       <name>John Doe</name>
@@ -19,11 +19,30 @@
     </content>
     <id>https://nnic52136-hash.github.io/Yase52136.github.io/2026/10/02/hello-world/</id>
     <link href="https://nnic52136-hash.github.io/Yase52136.github.io/2026/10/02/hello-world/"/>
-    <published>2026-10-02T14:23:13.990Z</published>
+    <published>2026-10-02T15:05:23.813Z</published>
     <summary>
       <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/Yase52136.github.io/assets/css/APlayer.min.css"><script src="/Yase52136]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-10-02T14:23:13.990Z</updated>
+    <updated>2026-10-02T15:05:23.813Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <category term="教程" scheme="https://nnic52136-hash.github.io/Yase52136.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="Hexo" scheme="https://nnic52136-hash.github.io/Yase52136.github.io/tags/Hexo/"/>
+    <category term="分享" scheme="https://nnic52136-hash.github.io/Yase52136.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    <content>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/Yase52136.github.io/assets/css/APlayer.min.css"><script src="/Yase52136.github.io/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>title: 測試<br>tags: [教程, Hexo, 分享]</p><hr><p>哈囉世界，這是一個個網，Ciallo～(∠·ω&lt; )⌒☆</p>]]>
+    </content>
+    <id>https://nnic52136-hash.github.io/Yase52136.github.io/2026/10/02/%E6%B8%AC%E8%A9%A6/</id>
+    <link href="https://nnic52136-hash.github.io/Yase52136.github.io/2026/10/02/%E6%B8%AC%E8%A9%A6/"/>
+    <published>2026-10-02T15:05:23.813Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/Yase52136.github.io/assets/css/APlayer.min.css"><script src="/Yase52136]]>
+    </summary>
+    <title>測試.md</title>
+    <updated>2026-10-02T15:05:23.813Z</updated>
   </entry>
 </feed>
