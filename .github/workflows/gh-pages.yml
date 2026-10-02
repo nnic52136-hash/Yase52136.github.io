@@ -1,27 +1,34 @@
-name: GitHub Pages
+name: Deploy Hexo to GitHub Pages
+
 on:
   push:
     branches:
-      - hexo
+      - hexo  # 觸發分支
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4   # 升級至 v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4   # 升級至 v4
         with:
-          node-version: 16.x
+          node-version: '20'
 
-      - name: Install Dependencies
-        run: npm i
-      - run: npm run build
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Build Hexo
+        run: |
+          npx hexo clean
+          npx hexo generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: master
-          force_orphan: true
+          publish_branch: master   # 輸出的目標靜態檔分支
